@@ -3148,3 +3148,16 @@ input, select, textarea {
 					}
 
 	}
+
+
+/* Moje */
+.not_highlighted_li
+{
+	font-size:1.2em;
+}
+
+.highlighted_li {
+	color: #ef8376;
+	font-size:1.2em;
+}
+
