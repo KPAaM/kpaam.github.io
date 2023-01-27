@@ -3201,11 +3201,8 @@ input, select, textarea {
 	display: none;
 	color: #eff1f5;
 	margin: 20px 0;
-
-  }
-
-  #collapse-text {
 	white-space: nowrap;
+
   }
 
 /* #text-box {
