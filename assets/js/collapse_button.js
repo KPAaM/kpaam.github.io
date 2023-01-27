@@ -1,5 +1,5 @@
-function collapseFunction() {
-  var container = document.getElementById("collapse-text");
+function collapseFunction(collapse_ID) {
+  var container = document.getElementById(collapse_ID);
   if (container.style.display === "none") {
     container.style.display = "block";
     container.style.maxHeight = container.scrollHeight + "px";
