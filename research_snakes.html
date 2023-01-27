@@ -13,6 +13,8 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="left-sidebar is-preload">
+        <script src="assets/js/collapse_button.js"></script>
+
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -71,28 +73,77 @@
                             <article id="main">
                                 <header>
                                     <h2>Snake robots</h2>
-                                    <p>
-                                        The snake robots are kinematically redundant robots, that can be used in the applications, where other kinds of robots are not effective. Our main focus is on
-                                        terrestrial snake robots, especially with focus on in-pipe inspections.
-
-                                        <h3>Research objectives</h3>
-                                        <ul id="research_objectives">
-                                            <li>Mechanical design of snake robots for in-pipe applications</li>
-                                            <li>Control system design with adaptability to changing environment</li>
-                                            <li>Development of the artificial locomotion patterns based on machine learning</li>
-                                        </ul>
-                                    </p>
                                 </header>
+                                <p align="justify">
+                                    The snake robots are kinematically redundant robots, that can be used in the applications, where other kinds of robots are not effective. Our main focus is on
+                                    terrestrial snake robots, especially with focus on in-pipe inspections.
+
+                                    <h3>Research objectives</h3>
+                                    <ul id="research_objectives">
+                                        <li>Mechanical design of snake robots for in-pipe applications</li>
+                                        <li>Control system design with adaptability to changing environment</li>
+                                        <li>Development of the artificial locomotion patterns based on machine learning</li>
+                                    </ul>
+                                </p>
                                 <div class="row gtr-50">
+                                    <!-- Clanok 1 -->
                                     <div class="col-4">
                                         <a href="#" class="image fit"><img src="images/pic10.jpg" alt="" /></a>
                                     </div>
                                     <div class="col-8">
-                                        <h4>Clanok 1</h4>
+                                        <h4>An inspection of pipe by snake robot</h4>
                                         <p>
-                                            Amet nullam fringilla nibh nulla convallis tique ante proin.
+                                            František Trebuňa, Ivan Virgala, Miroslav Pástor, Tomáš Lipták, Ľubica Miková
+                                            <br>
+                                            International Journal of Advanced Robotic Systems, 2016
                                         </p>
+                                        <div id="collapse-button-container">
+									
+                                            <button><a href="Tomas_Merva.pdf" target="_blank">PDF</a></button>
+                                            <button><a href="https://youtu.be/GN2U0PE8QBk">Videos</a></button>
+                                            <button><a href="">Github</a></button>
+                                            <!-- <button id="collapse-button">Bibtex</button> -->
+                                            <button onclick="collapseFunction()" type="button">Toggle Container</button>
+                                        </div>
+
+
+                                        <div id="collapse-text" class="collapse-container">
+                                          <p>@Article{Trebuna2016,
+                                            <br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;author={Trebuňa, František and Virgala, Ivan and Pástor, Miroslav and Lipták, Tomáš and Miková, L'ubica},
+                                            <br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;journal = {International Journal of Advanced Robotic Systems},
+                                            <br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;title = {An inspection of pipe by snake robot},
+                                            <br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;year = {2016},
+                                            <br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;number = {5},
+                                            <br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;pages = {1729881416663668},
+                                            <br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;volume = {13},
+                                            <br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;groups = {Sampling-based},
+                                            <br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;publisher = {SAGE Publications Sage UK: London, England},
+                                            <br>
+                                            }
+                                          </p>
+                                        </div>
+
+                                        <!-- <div id="text-box-wrapper">
+                                            <div id="text-box">
+                                                <p>@article{22-driess-NeRF-RL-preprint,<br>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;title={Reinforcement Learning with Neural Radiance Fields},<br>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;author={Driess, Danny and Schubert, Ingmar and Florence, Pete and Li, Yunzhu and Toussaint, Marc},<br>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;journal={arXiv preprint arXiv:2206.01634},<br>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;year={2022}<br>
+                                                  }</p>
+                                            </div>
+                                        </div> -->
                                     </div>
+                                    <!-- Clanok 2 -->
                                     <div class="col-4">
                                         <a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
                                     </div>

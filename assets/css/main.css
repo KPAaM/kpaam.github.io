@@ -3161,3 +3161,74 @@ input, select, textarea {
 	font-size:1.2em;
 }
 
+
+/* MOJE */
+
+#collapse-button-container {
+	display:flex;
+	/* justify-content: space-between; */
+}
+
+#collapse-button-container button {
+    margin-right: 10px;
+	width: 150px;
+	height: 60px;
+}
+
+
+
+/* Define the button style
+.collapse-btn {
+	background-color: #ddd;
+	color: black;
+	padding: 10px;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	text-align: left;
+	outline: none;
+	font-weight: bold;
+  } */
+  
+/* Define the container style */
+.collapse-container {
+	background-color: #343d46;
+	padding: 10px;
+	max-height: 0;
+	overflow-x: scroll;
+	transition: max-height 0.2s ease-out, display 0.2s ease-out;
+	display: none;
+	color: #eff1f5;
+	margin: 20px 0;
+
+  }
+
+  #collapse-text {
+	white-space: nowrap;
+  }
+
+/* #text-box {
+	display: block;
+	overflow: hidden;
+	height: 0;
+	transition: height 0.5s;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: justify;
+}
+
+#text-box.expanded {
+	height: auto;
+}
+  
+#collapse-button {
+	flex: 1;
+	margin-right: 20px;
+
+}
+
+#text-box-wrapper {
+	display: block;
+	width: 100%;
+	margin-top: 10px; /* You can adjust the distance between the button and the text box */
+/* } */
