@@ -85,7 +85,7 @@ input, select, textarea {
 	body {
 		background: #f0f4f4;
 		color: #5b5b5b;
-		font-size: 15pt;
+		font-size: 16pt;
 		line-height: 1.85em;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
@@ -1941,7 +1941,9 @@ input, select, textarea {
 				text-align: center;
 				border-radius: 100%;
 				border: 0;
-				color: inherit;
+				/* color: inherit; */
+				color: #fff;
+
 			}
 
 				ul.icons li a:hover {
@@ -2265,10 +2267,10 @@ input, select, textarea {
 		body.homepage #header h1 {
 			font-size: 4em;
 		}
-
+/* tu sa meni farba loading screenu */
 		body.homepage #header:after {
 			content: '';
-			background: #1C0920;
+			background: #004c99ff;	
 			display: block;
 			position: absolute;
 			left: 0;
