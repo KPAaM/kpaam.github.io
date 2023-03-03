@@ -1801,7 +1801,8 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
-			width: 100%;
+			width: 	400px;
+			height: 300px;
 			margin: 0 0 4em 0;
 		}
 
